@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+   
+</head>
+<body>
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog"> 
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 style="text-align: center;">THÔNG TIN CÁ NHÂN</h3>
+            </div>
+            <div class="modal-body">
+                <form role="form" class="form-horizontal">
+                    <div class="form-group">
+                        <div id="thongbao" class="text-danger" style="text-align: center;"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtHoTen" class="control-label col-xs-3">Họ tên</label>
+                        <div class="col-md-9">
+                            <input type="text" id="txtHoTen" class="form-control" placeholder="Nhập họ tên">
+                            <span id="tbHoTen" class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtSCMND" class="control-label col-xs-3">SCMND cũ</label>
+                        <div class="col-md-9">
+                            <input type="text" id="txtSCMND" class="form-control" placeholder="Nhập SCMND cũ">
+                            <span id="tbSCMND" class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtQueQuan" class="control-label col-xs-3">Quê quán</label>
+                        <div class="col-md-9">
+                            <input type="text" id="txtQueQuan" class="form-control" placeholder="Nhập quê quán">
+                            <span id="tbQueQuan" class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtEmail" class="control-label col-xs-3">Email</label>
+                        <div class="col-md-9">
+                            <input type="text" id="txtEmail" class="form-control" placeholder="Nhập theo cú pháp @gmail.com">
+                            <span id="tbEmail" class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtSDT" class="control-label col-xs-3">SDT</label>
+                        <div class="col-md-9">
+                            <input type="text" id="txtSDT" class="form-control" placeholder="Nhập SDT">
+                            <span id="tbSDT" class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtAnh" class="control-label col-xs-3">Ảnh đại diện</label>
+                        <div class="col-md-9">
+                            <input type="file" id="txtAnh" class="form-control" accept=".jpg, .jpeg, .png">
+                            <span id="tbFile" class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <button type="button" id="btnSave" class="btn btn-sucess btn-block">Lưu</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
